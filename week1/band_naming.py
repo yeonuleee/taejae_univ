@@ -1,1 +1,8 @@
-
+t("나만의 락밴드를 만들어보세요!")
+color = input("하의 색깔을 입력해주세요.")
+food = input("마지막으로 먹은 음식을 입력해주세요.")
+print("나의 락밴드 이름은 <" + color + food + ">입니다.")
+print("<" + color + food +">의 히트곡은?")
+number = input("좋아하는 숫자를 입력해주세요.")
+place = input("좋아하는 장소를 입력해주세요.")
+print("락밴드 <" + color + food + ">의 히트곡은 " + "<새벽 " + number + "시의" + place +"에서 너를 기다려>입니다.")
